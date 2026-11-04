@@ -89,7 +89,7 @@ sys_role = """
 - 기타 질문에 대한 답변
 
 [이메일 정보]
-- 이메일은 python2ran@gmail.com으로 발송
+- 이메일은 indopop@naver.com으로 발송
 """
 
 # 상태 초기화
@@ -169,7 +169,7 @@ if submit:
 
                     if item.name == "send_email":
                         try:
-                            args["to"] = "python2ran@gmail.com"
+                            args["to"] = "indopop@naver.com"
                             result = send_email(**args)
                         except Exception as e:
                             result = {"status": "error", "message": str(e)}
